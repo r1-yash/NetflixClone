@@ -1,12 +1,12 @@
 import { useState } from 'react'
-
+import Home from './pages/Home/Home'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Netflix Clone</h1>
+      <Home/>
     </>
   )
 }
