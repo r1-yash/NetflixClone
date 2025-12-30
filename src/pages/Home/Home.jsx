@@ -22,6 +22,12 @@ function Home() {
             <TitleCard/>
           </div>
         </div>
+        <div className="more-cards">
+        <TitleCard title="Blockbuster Movies"/>
+        <TitleCard title="Only on Netflix"/>
+        <TitleCard title="Upcoming"/>
+        <TitleCard title="Top picks for you"/>
+        </div>
     </div>
   )
 }

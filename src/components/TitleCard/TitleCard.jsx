@@ -3,7 +3,7 @@ import './TitleCard.css'
 import cards_data from '../../assets/cards/Cards_data'
 import { useRef } from 'react';
 
-function TitleCard() {
+function TitleCard({title}) {
 
   const cardRef = useRef();
 
@@ -18,6 +18,7 @@ function TitleCard() {
 
   return (
     <div className='title-card'>
+      <h2>{title?title:"Popular on Netflix"}</h2>
       <div className='card-list' ref={cardRef}>
         {cards_data.map((card, index)=>{
           return <div className='card' key={index}>
