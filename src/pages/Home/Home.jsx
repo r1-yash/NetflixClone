@@ -5,7 +5,7 @@ import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
-
+import TitleCard from '../../components/TitleCard/TitleCard'
 function Home() {
   return (
     <div className='home'>
@@ -19,6 +19,7 @@ function Home() {
               <button className='btn'><img src={play_icon}></img>Play</button>
               <button className='btn btn-dark'><img src={info_icon}></img>Info</button>
             </div>
+            <TitleCard/>
           </div>
         </div>
     </div>
