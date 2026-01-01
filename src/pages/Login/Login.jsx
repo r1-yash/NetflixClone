@@ -7,10 +7,18 @@ function Login() {
     <div className='login'>
        <img src={logo} className='login-logo'></img>
       <form className='login-form'>
+        <h1>Sign up</h1>
         <input type='text' placeholder='Your name'></input>
         <input type='email' placeholder='Email'></input>
         <input type='password' placeholder='Password'></input>
-        <button>Sign In</button>
+        <button>Sign up</button>
+        <div className='form-help'>
+          <div className='checkbox'>
+          <input type='checkbox'></input>
+          <label htmlFor="">Remember Me</label>
+          </div>
+          <p>Need Help?</p>
+        </div>
       </form>
     </div>
   )
