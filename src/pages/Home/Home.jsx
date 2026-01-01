@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css' 
 import NavBar from '../../components/NavBar/NavBar'
+import Footer from '../../components/Footer/Footer'
 import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/play_icon.png'
@@ -27,6 +28,7 @@ function Home() {
         <TitleCard title="Only on Netflix"/>
         <TitleCard title="Upcoming"/>
         <TitleCard title="Top picks for you"/>
+        <Footer/>
         </div>
     </div>
   )
