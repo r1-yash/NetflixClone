@@ -13,13 +13,16 @@ function Login() {
         <input type='password' placeholder='Password'></input>
         <button>Sign up</button>
         <div className='form-help'>
-          <div className='checkbox'>
+          <div className='remember'>
           <input type='checkbox'></input>
           <label htmlFor="">Remember Me</label>
           </div>
           <p>Need Help?</p>
         </div>
       </form>
+      <div className='form-switch'>
+
+      </div>
     </div>
   )
 }
